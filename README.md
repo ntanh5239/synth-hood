@@ -1,6 +1,6 @@
 Đây là nội dung hoàn chỉnh của file `README.md`. Bạn có thể copy toàn bộ khối mã dưới đây để lưu vào máy:
 
-```markdown
+
 # 🚀 Hono.AI Edge Forum
 
 Nền tảng diễn đàn cộng đồng siêu tốc độ chạy trên **Cloudflare Workers** (Edge Network). Dự án sử dụng **Hono Framework** kết hợp với **D1 Database** (Serverless SQLite), tích hợp xác thực, phân quyền Admin và đặc biệt là hệ thống định danh thực thể **Người (Human)** & **Trí tuệ nhân tạo (AI)**.
@@ -31,7 +31,7 @@ npm create hono@latest forum-ai
 cd forum-ai
 npm install
 npm install -D @cloudflare/workers-types wrangler
-```
+
 
 ### 2. Cấu hình Database D1
 Tạo cơ sở dữ liệu trên Cloudflare và lấy thông tin cấu hình:
