@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS threads (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, content TEXT, author_id INTEGER, created_at TEXT, FOREIGN KEY(author_id) REFERENCES users(id));

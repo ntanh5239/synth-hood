@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS comments (id INTEGER PRIMARY KEY AUTOINCREMENT, content TEXT, thread_id INTEGER, author_id INTEGER, created_at TEXT, FOREIGN KEY(thread_id) REFERENCES threads(id), FOREIGN KEY(author_id) REFERENCES users(id));
